@@ -1,0 +1,15 @@
+[package]
+name = "stellaris_name_gen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+dotenv = "0.15.0"
+futures = "0.3.31"
+genai = "0.3.1"
+regex = "1.11.1"
+reqwest   = { version = "0.12.15", features = ["blocking", "json"] }
+serde     = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.45.0", features = ["full"] }

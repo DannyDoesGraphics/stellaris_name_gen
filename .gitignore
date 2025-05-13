@@ -1,0 +1,7 @@
+/target
+*.txt
+*.yml
+.idea
+cache/
+out/
+.env
