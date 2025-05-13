@@ -8,6 +8,7 @@ A stellaris name list generator will automatically generate a name list configur
 
 ## How?
 - We expect a `file_structure.txt` containing your base [stellaris namelist](https://stellaris.paradoxwikis.com/Empire_modding#Name_lists)
+- `lore.txt` contains your setting to set your prompt in ie if you're a 40k empire, put this information here! The LLM will use this information to inform itself how to generate suitable names
 - We expect `.env` file containing **one** of your API key that you will use:
     - Gemini: `GEMINI_API_KEY`
     - OpenAI: `OPENAI_API_KEY`
